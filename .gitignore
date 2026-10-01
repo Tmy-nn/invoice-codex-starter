@@ -1,0 +1,28 @@
+# Customer data and generated deliverables are never committed.
+data/
+output/
+*.xlsx
+*.xlsm
+*.xls
+*.pdf
+*.eml
+*.csv
+!tests/fixtures/*.csv
+
+# Credentials and local settings
+.env
+.env.*
+*.env
+*.key
+*.pem
+.claude/settings.local.json
+
+# Python, editors, and operating systems
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+~$*
+
