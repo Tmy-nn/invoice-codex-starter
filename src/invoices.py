@@ -186,7 +186,7 @@ def render_pdf(path: Path, month: str, row: InvoiceRow) -> None:
     canvas.line(left, y - 6 * mm, right, y - 6 * mm)
 
     y -= 22 * mm
-    _text(canvas, left, y, "発行者：［事務所名・住所・登録番号を確認後に記入］", 10.5)
+    _text(canvas, left, y, "発行者：［名称・住所・登録番号を確認後に記入］", 10.5)
     y -= 9 * mm
     _text(canvas, left, y, "支払期限・振込先：［運用確認後に記入］", 10.5)
     y -= 14 * mm
